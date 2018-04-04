@@ -1,0 +1,139 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+
+
+</head>
+<body>
+    <style>
+    th, caption
+    {
+        text-align: center;
+    }
+    
+    </style>
+    
+     <table border="1" style="width:100%">
+        <thead>
+                <caption>El Titulo</caption>
+            <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+            </tr>
+
+        </thead>
+        <TBody>
+            <tr>    
+                <!-- coldgroup ver -->
+                    <td> Florencia</td>
+                    <td>Fiamingo</td>
+                    
+            </tr>
+        </TBody>
+        <tfoot>
+                <td>El pie</td>
+                <td>El otro pie</td>
+        </tfoot>
+
+               
+    </table>
+    <br>
+    <br>   
+
+    <form action="#"metod="GET" enctype="multipart/fore-data">
+            
+        <label for="txtnombre">Ingrese nombre:</label>
+        <input type="text" name="nombre" id="txtnombre" maxlength="4" placeholder="Ingrese su nombre"> <br>
+        
+        <input type="submit" value="Enviar info">
+
+        <input type="reset">
+
+        <br>
+
+        <!-- checkbox para seleccionar varios, radio para uno
+        checked para ya marcarlo predeterminado
+        -->
+        <br>
+        <fieldset>
+                <legend>Ingrese lenguajes que domina:</legend>
+                <input type="radio" name="csharp" id="" checked>C#
+                <input type="radio" name="java" id="" disabled>Java
+                <input type="radio" name="php" id="">Php
+        </fieldset>
+
+        <br>
+        
+        <fieldset>
+                <legend>Ingrese genero:</legend>
+                <input type="radio" name="genero" value="0" id="">Femenino
+                <input type="radio" name="genero" value="1" id="">Masculino
+                <input type="radio" name="genero" value="2" id="">Otro
+        </fieldset>
+
+        <br>
+
+        <select name="Localidad[]" id="cmblocalidad" size="3" multiple>
+            
+            <option value="Avellaneda"=>Avellaneda</option>
+            <option value="1">Quilmes</option>
+            <option value="2">Bernal</option>
+            <option value="3" selected>Banfield</option>
+            <option value="4">Lanus</option>
+
+        </select>
+        <br>
+        <optgroup>
+                                
+            <option value="0"=>Manzana</option>
+            <option value="1">Banana</option>
+            <option value="2">Frutilla</option>
+                       
+        </optgroup>
+        
+        <br><br>
+
+        Email:
+        <input type="email" name="mal" id=""required>
+        <br><br>
+
+        <input type="url"id="" required>
+        <input type="file" name="" id="" required>
+
+        <br>
+        <br>
+
+        <input type="text" tabindex="1">
+        <input type="text" tabindex="2">
+        <input type="text" tabindex="3">
+        <input type="text" tabindex="4">
+        <input type="text" tabindex="5"> <br><br>
+
+        Contraseña:
+        <input type="password" name="" id=""> <br><br>
+
+        <input type="range" min="5" max="10"> <br><br>
+        
+        <input type="hiden" name="" id=""> <br><br>
+
+        <input type="number"> <br><br>
+        
+    </form>
+
+    <!-- autoplay loop (para volver a empezar) preload
+    videos de youtube ver embeter o algo asi
+    -->
+    <video src="multimedia/video/"></video>
+            
+</body>
+</html>
+
+
+</html>
