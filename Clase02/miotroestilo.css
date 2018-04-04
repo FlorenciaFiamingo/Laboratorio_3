@@ -1,3 +1,18 @@
+body
+{
+    height: 2000px;
+    background: url("imagenes/zebra.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+.container
+{
+    background-color: rgba(1,1,1,0.6);
+    margin: 0 60px;
+    height: 100%;
+}
 
 .caja1
 {
@@ -5,10 +20,30 @@
     box-sizing: border-box;
     width: 300px;
     background-color: olivedrab;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 100px;
+    box-shadow: 3px 3px rgba(1,1,1,0.13);
+    transition: 0.3s;
+    
 }
+
+.caja1:hover
+{
+    background-color: green;
+}
+
+
 .caja2
 {
     height: 50px;
     width: 300px;
     background-color: magenta;
+    border: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
 }
